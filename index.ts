@@ -11,8 +11,9 @@ const port: string | number = process.env.PORT || 8000
 //Define the first Route of APP
 app.get('/',(req: Request, res :Response)=>{
     // Send 
-    res.send('APP Express + TS + Swagger + Mongoose');
+    res.send('Goodbye, wordrl');
 });
+
 //Define the first Route of APP
 app.get('/hello',(req: Request, res :Response)=>{
     // Send 
